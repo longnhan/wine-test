@@ -1,3 +1,9 @@
-# wine-test
-#to run wine-portable-5.20-staging-amd64.sh
-sudo apt install libfuse2
+**Wine portable + makeself**
+
+- sudo apt-get install git-lfs
+
+- git lfs install
+
+- git clone git@github.com:longnhan/wine-test.git
+
+- ./wine-run.sh $PWD/putty.exe #to run
